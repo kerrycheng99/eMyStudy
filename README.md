@@ -1,2 +1,2 @@
 # eMyStudy
-Primary school student’s study data. Including Chinese, Maths, English, For own use.
+Primary school student’s study data. Including Chinese, Maths and English, For own use.
