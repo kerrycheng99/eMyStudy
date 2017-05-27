@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\eMyStudy\published</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/MyStudy.db">
+      <publishTime>11/13/2014 09:41:43</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>11/30/2014 22:15:20</publishTime>
+    </File>
+    <File Include="bin/MyStudy.dll">
+      <publishTime>06/12/2016 11:33:41</publishTime>
+    </File>
+    <File Include="bin/MyStudyClass.dll">
+      <publishTime>06/12/2016 11:33:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/20/2014 20:24:26</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>09/05/2014 19:20:20</publishTime>
+    </File>
+    <File Include="CnPhrasesExam.aspx">
+      <publishTime>01/02/2015 23:05:07</publishTime>
+    </File>
+    <File Include="CnPhrasesList.aspx">
+      <publishTime>01/02/2015 23:05:06</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/15/2014 18:18:33</publishTime>
+    </File>
+    <File Include="EnWordsExam.aspx">
+      <publishTime>04/03/2015 10:19:13</publishTime>
+    </File>
+    <File Include="EnWordsList.aspx">
+      <publishTime>01/02/2015 23:05:06</publishTime>
+    </File>
+    <File Include="ExamQuestionsList.aspx">
+      <publishTime>11/15/2014 18:59:35</publishTime>
+    </File>
+    <File Include="ExamQuestionsQuiz.aspx">
+      <publishTime>12/08/2014 15:32:37</publishTime>
+    </File>
+    <File Include="Handler/CnPhrasesHandler.ashx">
+      <publishTime>12/03/2014 12:05:21</publishTime>
+    </File>
+    <File Include="Handler/EnWordsExamHandler.ashx">
+      <publishTime>11/07/2014 17:09:52</publishTime>
+    </File>
+    <File Include="Handler/EnWordsHandler.ashx">
+      <publishTime>11/05/2014 09:55:44</publishTime>
+    </File>
+    <File Include="Handler/ExamQuestionsHandler.ashx">
+      <publishTime>11/05/2014 15:53:40</publishTime>
+    </File>
+    <File Include="Handler/SysDictionaryHandler.ashx">
+      <publishTime>11/10/2014 13:38:25</publishTime>
+    </File>
+    <File Include="Handler/TimeTableHandler.ashx">
+      <publishTime>11/04/2014 21:10:43</publishTime>
+    </File>
+    <File Include="Handler/UserParameterHandler.ashx">
+      <publishTime>11/04/2014 19:59:02</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>04/13/2016 10:53:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>10/28/2014 17:59:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>10/28/2014 17:59:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>10/28/2014 17:59:51</publishTime>
+    </File>
+    <File Include="static/css/front.css">
+      <publishTime>03/29/2015 10:15:18</publishTime>
+    </File>
+    <File Include="static/css/top-toolbar.css">
+      <publishTime>10/31/2014 20:41:47</publishTime>
+    </File>
+    <File Include="static/img/ajax-loader.gif">
+      <publishTime>12/04/2008 16:31:22</publishTime>
+    </File>
+    <File Include="static/img/app_icon.png">
+      <publishTime>11/16/2014 11:00:48</publishTime>
+    </File>
+    <File Include="static/img/dropdown_menu-1.png">
+      <publishTime>10/31/2014 13:19:43</publishTime>
+    </File>
+    <File Include="static/img/dropdown_menu.png">
+      <publishTime>10/30/2014 22:31:37</publishTime>
+    </File>
+    <File Include="static/img/dropdown_menu_hover.png">
+      <publishTime>10/31/2014 13:19:19</publishTime>
+    </File>
+    <File Include="static/img/hire_btn.png">
+      <publishTime>11/12/2014 11:24:42</publishTime>
+    </File>
+    <File Include="static/img/hire_sp_btn.gif">
+      <publishTime>11/12/2014 10:18:56</publishTime>
+    </File>
+    <File Include="static/img/logo.png">
+      <publishTime>10/30/2014 16:56:42</publishTime>
+    </File>
+    <File Include="static/img/new-sprite.png">
+      <publishTime>11/08/2014 18:58:16</publishTime>
+    </File>
+    <File Include="static/img/sort_asc.gif">
+      <publishTime>04/18/2008 21:32:20</publishTime>
+    </File>
+    <File Include="static/img/sort_desc.gif">
+      <publishTime>04/18/2008 21:32:20</publishTime>
+    </File>
+    <File Include="static/img/spinner3-greenie.gif">
+      <publishTime>12/01/2008 14:14:44</publishTime>
+    </File>
+    <File Include="static/js/estudy.js">
+      <publishTime>11/15/2014 16:18:46</publishTime>
+    </File>
+    <File Include="static/js/estudy_nav.html">
+      <publishTime>12/03/2014 12:33:46</publishTime>
+    </File>
+    <File Include="static/js/jquery-1.7.1.js">
+      <publishTime>10/28/2014 17:59:51</publishTime>
+    </File>
+    <File Include="static/js/jquery-1.7.1.min.js">
+      <publishTime>10/28/2014 17:59:51</publishTime>
+    </File>
+    <File Include="static/js/jquery.pagination.js">
+      <publishTime>06/03/2011 09:09:00</publishTime>
+    </File>
+    <File Include="static/js/pagination.css">
+      <publishTime>11/12/2014 10:12:34</publishTime>
+    </File>
+    <File Include="TimeTable.aspx">
+      <publishTime>11/13/2014 20:47:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/12/2016 10:40:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

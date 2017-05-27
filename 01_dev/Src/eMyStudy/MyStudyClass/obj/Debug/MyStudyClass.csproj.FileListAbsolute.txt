@@ -1,0 +1,13 @@
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Debug\MyStudyClass.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Debug\MyStudyClass.pdb
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Debug\MyStudyClass.csprojResolveAssemblyReference.cache
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Debug\MyStudyClass.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Debug\MyStudyClass.pdb
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\MyStudyClass.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\MyStudyClass.pdb
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\obj\Debug\MyStudyClass.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\obj\Debug\MyStudyClass.pdb
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\Newtonsoft.Json.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\System.Data.SQLite.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\EPPlus.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Debug\EPPlus.xml

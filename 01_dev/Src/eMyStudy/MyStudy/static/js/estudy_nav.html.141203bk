@@ -1,0 +1,62 @@
+﻿        <!-- Navigation -->
+        <div class="container">
+            <div class="nav-bar">
+                <a href="." class="" data-navid="NAVS_HEAD">首页</a>
+
+                <span class="dropdown">
+                    <a href="javascript:void(0);" data-navid="NAVS_WEXAM">单词抽查</a>
+                    <span class="caret"></span>
+                    <div class="dropdown-menu">
+                        <a class="li wexam" href="EnWordsExam.aspx" target="_self" data-navid="NAVS_DISK">
+                            <span class="icon"></span>
+                            <span class="text">单词拼读</span>
+                        </a>
+                        <a class="li wlist" href="EnWordsExam.aspx?Iswt=Y" target="_self" data-navid="NAVS_TONGXUNLU">
+                            <span class="icon"></span>
+                            <span class="text">单词拼写</span>
+                        </a>
+                    </div>
+                </span>
+
+                <a href="EnWordsList.aspx" class="" data-navid="NAVS_WLIST">单词列表</a>
+
+                <span class="dropdown">
+                    <a href="javascript:void(0);" data-navid="NAVS_QEXAM">试题抽查</a>
+                    <span class="caret"></span>
+                    <div class="dropdown-menu">
+                        <a class="li qcn" href="ExamQuestionsQuiz.aspx?Subj=CN" target="_self" data-navid="NAVS_DISK">
+                            <span class="icon"></span>
+                            <span class="text">语文抽查</span>
+                        </a>
+                        <a class="li qmath" href="ExamQuestionsQuiz.aspx?Subj=SX" target="_self" data-navid="NAVS_TONGXUNLU">
+                            <span class="icon"></span>
+                            <span class="text">数学抽查</span>
+                        </a>
+                        <a class="li qen" href="ExamQuestionsQuiz.aspx?Subj=EN" target="_self" data-navid="NAVS_TONGXUNLU">
+                            <span class="icon"></span>
+                            <span class="text">英语抽查</span>
+                        </a>
+                    </div>
+                </span>
+
+                <span class="dropdown">
+                    <a href="javascript:void(0);" data-navid="NAVS_QLIST">试题列表</a>
+                    <span class="caret"></span>
+                    <div class="dropdown-menu">
+                        <a class="li qcn" href="ExamQuestionsList.aspx?Subj=CN" target="_self" data-navid="NAVS_DISK">
+                            <span class="icon"></span>
+                            <span class="text">语文试题</span>
+                        </a>
+                        <a class="li qmath" href="ExamQuestionsList.aspx?Subj=SX" target="_self" data-navid="NAVS_TONGXUNLU">
+                            <span class="icon"></span>
+                            <span class="text">数学试题</span>
+                        </a>
+                        <a class="li qen" href="ExamQuestionsList.aspx?Subj=EN" target="_self" data-navid="NAVS_TONGXUNLU">
+                            <span class="icon"></span>
+                            <span class="text">英语试题</span>
+                        </a>
+                    </div>
+                </span>
+
+            </div>
+        </div>

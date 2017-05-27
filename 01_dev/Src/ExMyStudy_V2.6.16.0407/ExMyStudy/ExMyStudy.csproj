@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>ExMyStudy</RootNamespace>
+    <AssemblyName>ExMyStudy</AssemblyName>
+    <VSTO_HostDocumentName>ExMyStudy.xlsx</VSTO_HostDocumentName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OfficeApplication>Excel</OfficeApplication>
+    <ProjectGuid>{1EE401FE-03D3-4533-B22D-8A9C62C86B18}</ProjectGuid>
+    <SolutionID>72c1741d-68e1-4aa6-9570-830755ae096c</SolutionID>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>zh-chs</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>ExMyStudy</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>ExMyStudy</FriendlyName>
+    <OfficeApplicationDescription />
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <VSTO_EmbedTypeLibraryInAssembly>false</VSTO_EmbedTypeLibraryInAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ExMyStudy_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>08DD5F2F8AEA94B4E4D0DEA15F0E5127E9E814B2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.96.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsCnPhrases.cs" />
+    <Compile Include="clsEnWords.cs" />
+    <Compile Include="clsExamQuestions.cs" />
+    <Compile Include="ComConst.cs" />
+    <Compile Include="ComLibrary.cs" />
+    <Compile Include="PrinterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrinterForm.designer.cs">
+      <DependentUpon>PrinterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionsList.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsList.Designer.cs">
+      <DependentUpon>QuestionsList.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsFormat.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsFormat.Designer.cs">
+      <DependentUpon>QuestionsFormat.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsExam.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsExam.Designer.cs">
+      <DependentUpon>EnWordsExam.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsExam.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsExam.Designer.cs">
+      <DependentUpon>QuestionsExam.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsList.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsList.Designer.cs">
+      <DependentUpon>EnWordsList.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsFormat.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="EnWordsFormat.Designer.cs">
+      <DependentUpon>EnWordsFormat.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsListPrt.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsListPrt.Designer.cs">
+      <DependentUpon>QuestionsListPrt.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseFormat.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseFormat.Designer.cs">
+      <DependentUpon>CnPhraseFormat.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseList.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseList.Designer.cs">
+      <DependentUpon>CnPhraseList.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseExam.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhraseExam.Designer.cs">
+      <DependentUpon>CnPhraseExam.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhrasePrt.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="CnPhrasePrt.Designer.cs">
+      <DependentUpon>CnPhrasePrt.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="SQLiteHelper.cs" />
+    <Compile Include="ThisWorkbook.cs">
+      <DependentUpon>ExMyStudy.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.Designer.cs">
+      <DependentUpon>ThisWorkbook.Designer.xml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PrinterForm.resx">
+      <DependentUpon>PrinterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionsExam.resx">
+      <DependentUpon>QuestionsExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionsFormat.resx">
+      <DependentUpon>QuestionsFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionsList.resx">
+      <DependentUpon>QuestionsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnWordsFormat.resx">
+      <DependentUpon>EnWordsFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="EnWordsExam.resx">
+      <DependentUpon>EnWordsExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionsListPrt.resx">
+      <DependentUpon>QuestionsListPrt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnWordsList.resx">
+      <DependentUpon>EnWordsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CnPhraseFormat.resx">
+      <DependentUpon>CnPhraseFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CnPhraseList.resx">
+      <DependentUpon>CnPhraseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CnPhraseExam.resx">
+      <DependentUpon>CnPhraseExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CnPhrasePrt.resx">
+      <DependentUpon>CnPhrasePrt.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="App_Data\MyStudy.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ExMyStudy.xlsx" />
+    <None Include="ExMyStudy_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThisWorkbook.Designer.xml">
+      <DependentUpon>ThisWorkbook.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EnWordsExam.Designer.xml">
+      <DependentUpon>EnWordsExam.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EnWordsList.Designer.xml">
+      <DependentUpon>EnWordsList.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EnWordsFormat.Designer.xml">
+      <DependentUpon>EnWordsFormat.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Setting.Designer.xml">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuestionsList.Designer.xml">
+      <DependentUpon>QuestionsList.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuestionsFormat.Designer.xml">
+      <DependentUpon>QuestionsFormat.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuestionsExam.Designer.xml">
+      <DependentUpon>QuestionsExam.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuestionsListPrt.Designer.xml">
+      <DependentUpon>QuestionsListPrt.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CnPhraseFormat.Designer.xml">
+      <DependentUpon>CnPhraseFormat.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CnPhraseList.Designer.xml">
+      <DependentUpon>CnPhraseList.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CnPhraseExam.Designer.xml">
+      <DependentUpon>CnPhraseExam.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CnPhrasePrt.Designer.xml">
+      <DependentUpon>CnPhrasePrt.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="ExMyStudy.xlsx" HostPackage="{825100CF-0BA7-47EA-A084-DCF3308DAF74}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="XLS" Language="CS" TemplatesPath="VSTOTemplates" DebugInfoExeName="C:\Program Files (x86)\Microsoft Office\Office14\Excel.exe" DebugInfoCommandLine="&quot;[$OUTPUT]ExMyStudy.xlsx&quot;" />
+        <Host Name="Excel Document" Path=".\ExMyStudy.xlsx" GeneratedCodeNamespace="ExMyStudy">
+          <HostItem Name="Sheet13" Code="CnPhraseExam.cs" CanonicalName="Sheet13" DisplayName="词语抽查" Blueprint="CnPhraseExam.Designer.xml" GeneratedCode="CnPhraseExam.Designer.cs" />
+          <HostItem Name="Sheet11" Code="CnPhraseFormat.cs" CanonicalName="Sheet11" CanActivate="false" DisplayName="词语格式" Blueprint="CnPhraseFormat.Designer.xml" GeneratedCode="CnPhraseFormat.Designer.cs" />
+          <HostItem Name="Sheet12" Code="CnPhraseList.cs" CanonicalName="Sheet12" CanActivate="false" DisplayName="词语列表" Blueprint="CnPhraseList.Designer.xml" GeneratedCode="CnPhraseList.Designer.cs" />
+          <HostItem Name="Sheet14" Code="CnPhrasePrt.cs" CanonicalName="Sheet14" CanActivate="false" DisplayName="词语打印" Blueprint="CnPhrasePrt.Designer.xml" GeneratedCode="CnPhrasePrt.Designer.cs" />
+          <HostItem Name="Sheet1" Code="EnWordsExam.cs" CanonicalName="Sheet1" DisplayName="单词抽查" Blueprint="EnWordsExam.Designer.xml" GeneratedCode="EnWordsExam.Designer.cs" />
+          <HostItem Name="Sheet3" Code="EnWordsFormat.cs" CanonicalName="Sheet3" CanActivate="false" DisplayName="单词格式" Blueprint="EnWordsFormat.Designer.xml" GeneratedCode="EnWordsFormat.Designer.cs" />
+          <HostItem Name="Sheet2" Code="EnWordsList.cs" CanonicalName="Sheet2" CanActivate="false" DisplayName="单词列表" Blueprint="EnWordsList.Designer.xml" GeneratedCode="EnWordsList.Designer.cs" />
+          <HostItem Name="Sheet7" Code="QuestionsExam.cs" CanonicalName="Sheet7" DisplayName="试题抽查" Blueprint="QuestionsExam.Designer.xml" GeneratedCode="QuestionsExam.Designer.cs" />
+          <HostItem Name="Sheet6" Code="QuestionsFormat.cs" CanonicalName="Sheet6" CanActivate="false" DisplayName="试题格式" Blueprint="QuestionsFormat.Designer.xml" GeneratedCode="QuestionsFormat.Designer.cs" />
+          <HostItem Name="Sheet5" Code="QuestionsList.cs" CanonicalName="Sheet5" CanActivate="false" DisplayName="试题列表" Blueprint="QuestionsList.Designer.xml" GeneratedCode="QuestionsList.Designer.cs" />
+          <HostItem Name="Sheet10" Code="QuestionsListPrt.cs" CanonicalName="Sheet10" CanActivate="false" DisplayName="试题列表打印" Blueprint="QuestionsListPrt.Designer.xml" GeneratedCode="QuestionsListPrt.Designer.cs" />
+          <HostItem Name="Sheet4" Code="Setting.cs" CanonicalName="Sheet4" CanActivate="false" DisplayName="设定" Blueprint="Setting.Designer.xml" GeneratedCode="Setting.Designer.cs" />
+          <HostItem Name="ThisWorkbook" Code="ThisWorkbook.cs" CanonicalName="ThisWorkbook" Blueprint="ThisWorkbook.Designer.xml" GeneratedCode="ThisWorkbook.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!--
+    To modify your build process, add your task inside one of the targets below and uncomment it.
+    Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

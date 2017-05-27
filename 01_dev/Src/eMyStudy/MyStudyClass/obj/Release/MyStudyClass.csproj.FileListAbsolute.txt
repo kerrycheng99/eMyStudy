@@ -1,0 +1,16 @@
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Release\MyStudyClass.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Release\MyStudyClass.pdb
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Release\Newtonsoft.Json.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\bin\Release\System.Data.SQLite.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.dll
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.pdb
+D:\eMyStudy\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.csprojResolveAssemblyReference.cache
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\MyStudyClass.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\MyStudyClass.pdb
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\EPPlus.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\Newtonsoft.Json.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\System.Data.SQLite.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\bin\Release\EPPlus.xml
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.csprojResolveAssemblyReference.cache
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.dll
+D:\eMyStudy\01_dev\Src\eMyStudy\MyStudyClass\obj\Release\MyStudyClass.pdb
